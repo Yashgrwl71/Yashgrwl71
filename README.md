@@ -38,11 +38,18 @@ Skilled in DCF, LBO, market analysis, scenario modeling, and data-driven decisio
 - **Systematic Strategy - Golden Cross**  
   Developed a systematic trading strategy using moving average crossovers; back-tested with historical data.
 
+  <a href="https://github.com/Yashgrwl71/Yashgrwl71/blob/main/Golden%20Cross%20Systematic%20Updated.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a> 
+
 - **Macro Strategy - Commodities**  
   Analyzed global macroeconomic indicators and developed a commodities strategy focusing on oil, gold, and agricultural commodities.
 
+    <a href="https://github.com/Yashgrwl71/Yashgrwl71/blob/main/CCC_MarketMavericks%20Final%20Product.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a> 
+
 - **Chae Organics**  
   Led commercial and financial due diligence on a $5.75M acquisition opportunity in the health & wellness sector.
+
+  <a href="https://github.com/Yashgrwl71/Yashgrwl71/blob/main/CCC_MarketMavericks%20Final%20Product.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a> 
+
 
 - **Chime Valuation**  
   Conducted a fundamental valuation of Chime, including market analysis, scenario modeling, and key financial ratios.
