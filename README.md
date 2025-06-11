@@ -60,7 +60,7 @@ The strategy combined technical indicators like momentum crossovers with fundame
 
   <a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/main/Golden%20Cross%20Systematic%20Updated.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a> 
 
--### **Commodities Based Macro Strategy**  
+- ### **Commodities Based Macro Strategy**  
 
 **Project:** CCC Macro Strategy - Commodities Allocation
 
