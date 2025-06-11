@@ -91,6 +91,9 @@ We presented the deal to a group of 10 investors, laying out our investment thes
 - **3-Statement Financial Model**  
   Fully integrated model linking income statement, balance sheet, and cash flow for forecasting and scenario analysis.
 
+
+   <a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/main/3-Statement%20Model.xlsx" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a> 
+
 - **Uber - Valuation**  
   Comprehensive valuation model for Uber Technologies, including revenue forecasts, cost structures, and market assumptions.
 
