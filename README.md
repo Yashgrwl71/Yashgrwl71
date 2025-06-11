@@ -33,7 +33,7 @@ Skilled in DCF, LBO, market analysis, scenario modeling, and data-driven decisio
 - **Uber Fundamental Analysis**  
   An in-depth financial and operational analysis of Uber Technologies, including valuation models and strategic recommendations.
 
-  <a href="https://github.com/Yashgrwl71/Yashgrwl71/blob/62f4875815d43cd070362dd20e9f5fa3550cf71b/UBER_FA_Presentation%20Final%20Product.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a>
+  <a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/62f4875815d43cd070362dd20e9f5fa3550cf71b/UBER_FA_Presentation%20Final%20Product.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a>
 
 - **Systematic Strategy - Golden Cross**  
   Developed a systematic trading strategy using moving average crossovers; back-tested with historical data.
