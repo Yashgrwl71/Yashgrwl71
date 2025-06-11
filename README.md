@@ -13,10 +13,14 @@
 
 1. [🌟 Summary](#-summary)
 2. [🚀 Projects](#-projects)
-3. [💰 Financial Models](#-financial-models)
-4. [📜 Certifications](#-certifications)
-5. [📈 Experience Highlights](#-experience-highlights)
-6. [📫 Let’s Connect](#-lets-connect)
+    - [Equity Valuation](#Equity-Valuation)  
+    - [Momentum Based Systematic Strategy](#Momentum-Based-Systematic-Strategy)
+    - [Commodities Based Macro Strategy](#Commodities-Based-Macro-Strategy)
+    - [Chae Organics - Private Equity Buyout Deal](#Chae-Organics---Private-Equity-Buyout-deal) 
+4. [💰 Financial Models](#-financial-models)
+5. [📜 Certifications](#-certifications)
+6. [📈 Experience Highlights](#-experience-highlights)
+7. [📫 Let’s Connect](#-lets-connect)
 
 ---
 
@@ -30,29 +34,55 @@ Skilled in DCF, LBO, market analysis, scenario modeling, and data-driven decisio
 
 ## 🚀 Projects
 
-- **Uber Fundamental Analysis**  
-  An in-depth financial and operational analysis of Uber Technologies, including valuation models and strategic recommendations.
+- ### ***Equity Valuation***
+
+**Project:** Uber Technologies Inc. Equity Research
+
+**Overview:**
+As part of the Student Investment Fund, our team analyzed Uber Technologies Inc. to identify an attractive investment opportunity within the ride-hailing and logistics sector. The analysis covered Uber’s market position, growth potential, valuation metrics, and operational scale, leading us to recommend purchasing 100 shares at $69.04 with a target price of $90.79.
+
+**Project Significance:**
+This investment demonstrated our team’s ability to identify undervalued opportunities in the technology sector. We recommended an investment of approximately $6,900, and the stock has since surpassed the $93 mark—validating our valuation approach and highlighting our understanding of Uber’s business model and growth prospects. This project also emphasized the importance of fundamental analysis, including DCF and comparable valuation frameworks, in making sound investment decisions.
 
   <a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/62f4875815d43cd070362dd20e9f5fa3550cf71b/UBER_FA_Presentation%20Final%20Product.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a>
 
+- ### ***Momentum Based Systematic Strategy***
+
 - **Systematic Strategy - Golden Cross**  
-  Developed a systematic trading strategy using moving average crossovers; back-tested with historical data.
+
+**Project:** Golden Cross Systematic Strategy
+
+**Overview:**
+Working as part of the Market Mavericks team, we developed a Golden Cross systematic strategy, a momentum-based investment approach that signals potential bullish trends when a short-term moving average crosses above a long-term moving average. Backtesting over ten years revealed an impressive cumulative return of 1030%, with an annualized return of 30.07% and a Sharpe ratio of 1.19.
+
+**Project Significance:**
+The strategy combined technical indicators like momentum crossovers with fundamental filters such as return on common equity (ROCE) and Sharpe ratio to refine stock selection and manage risk effectively. We ended up investing $12,200 into this strategy. This project showcased our collective expertise in blending quantitative and qualitative analysis to build robust, systematic investment frameworks.
 
   <a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/main/Golden%20Cross%20Systematic%20Updated.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a> 
 
-- **Macro Strategy - Commodities**  
-  Analyzed global macroeconomic indicators and developed a commodities strategy focusing on oil, gold, and agricultural commodities.
+-### **Commodities Based Macro Strategy**  
 
-    <a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/main/CCC_MarketMavericks%20Final%20Product.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a> 
+**Project:** CCC Macro Strategy - Commodities Allocation
 
-- **Chae Organics**  
-  Led commercial and financial due diligence on a $5.75M acquisition opportunity in the health & wellness sector.
+**Overview:**
+Together with the Market Mavericks team, we designed the 3C Macro Strategy, focusing on real assets and essential commodities to provide diversification and a hedge against market downturns. The strategy used ETFs such as DBC (broad commodities), DBA (agriculture), USG (gold with income overlay), and PHO (water infrastructure) to build a diversified portfolio.
+
+**Project Significance:**
+The strategy delivered on its promise during challenging market conditions. When the broader market fell by over 16%, our portfolio was down just 6%, underscoring the importance of diversification and real assets in risk management. Since inception, the strategy has returned 1.80% compared to the benchmark’s -0.51%, with a lower standard deviation (8.36% vs. 20.68%) and a higher Sharpe ratio (0.38 vs. -0.23). Our team was the only one in the cohort to deliver positive returns that year, reinforcing the strength of our collective approach to macro investing.
+
+<a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/main/CCC_MarketMavericks%20Final%20Product.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a> 
+
+- ### **Chae Organics - Private Equity Buyout Deal**
+ 
+**Project:** Chae Organics Acquisition Analysis
+
+**Overview:**
+Our team worked on the Chae Organics acquisition by sourcing the opportunity, screening the company, and carrying out preliminary due diligence over 10 weeks. We engaged directly with the founders to learn more about the business, how it operates, and its potential in the health and wellness space.
+
+**Project Significance:**
+We presented the deal to a group of 10 investors, laying out our investment thesis, valuation, and scenario analysis for the proposed $5.75 million acquisition. Our analysis showed a strong base case IRR of 72% and a 15.2x MOIC, making the opportunity very compelling. By staying in touch with the founders and working as a team, we were able to understand the company’s market position, growth opportunities, and how it could create value. This project showed how our team can find promising investment ideas, build relationships, and present deals in a clear, convincing way.
 
   <a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/main/CCC_MarketMavericks%20Final%20Product.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a> 
-
-
-- **Chime Valuation**  
-  Conducted a fundamental valuation of Chime, including market analysis, scenario modeling, and key financial ratios.
 
 ---
 
