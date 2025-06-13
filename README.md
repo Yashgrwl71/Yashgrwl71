@@ -122,27 +122,33 @@ This model showcases my ability to build clean, structured financial models usin
 - **Investment Analyst**, Center for Medical Innovation   (Salt Lake City, UT)  
 
   •	Conducted market assessments for 10+ novel medical devices, evaluating commercial viability and presenting recommendations to leadership on opportunities with $395M+ serviceable market
+
   •	Built a financial model to optimize deal flow and resource planning, ensuring alignment with return targets & commercialization timelines
 
 - **Investment Analyst**, Student Investment Fund (Salt Lake City, UT)
    
   •	Managed a $1.1M student-run fund, deploying public equity and macro strategies to generate alpha and mitigate portfolio risk
+
   •	Oversaw fund accounting and reporting processes, ensuring accuracy in financial tracking and performance documentation
+
   •	Conducted fundamental analysis and valuation to drive $73K in allocations across equity and commodity strategies, including a momentum model with 1030% back-tested return
 
 - **Investment Analyst**, Sorenson Impact Institute (Salt Lake City, UT)
   
   •	Conducted due diligence, financial and impact analysis, and valuation for 6 early-stage ventures; supported IC memos, founder interviews, and investment decisions
+
   • Participated in the end-to-end investment process, deploying $550K across 3 startups in healthcare and edtech; independently sourced 300+ startups and screened 45+ for high-potential      opportunities
 
 - **Fraud Analyst**, Goldman Sachs & Co (Bengaluru, India)  
 
   •	Conducted in-depth fraud investigations, process enhancements, and fostered cross-team collaboration to strengthen fraud prevention for Apple Cards
+
   •	Uncovered potential frauds & influenced improvements in prevention measures by effectively communicating findings to the team                                                           
 
 - **Fraud Analyst**, Amazon.com Inc (Hyderabad, India)  
 
  • Built a high-risk authorization system and new tracking metrics for Amazon Japan, cutting fraud authorization related support cases by 32% and reducing repeat ATO cases by 48%
+ 
  • Handpicked to set up core processes for the Japan marketplace ops team - designed 6 major and 13 minor workflows, and trained 28 investigators as part of a new advisory team to            strengthen fraud compliance
 
 ---
