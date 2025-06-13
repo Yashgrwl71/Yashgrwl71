@@ -146,7 +146,7 @@ This model showcases my ability to build clean, structured financial models usin
   • Uncovered potential frauds & influenced improvements in prevention measures by effectively communicating findings to the team                                                           
 
 
-- **Fraud Analyst, Amazon.com Inc**                                                                                                                                                                                                     *Hyderabad, India (Jul 2019 - Apr 2024)*
+- **Fraud Analyst, Amazon.com Inc**                                                                                                                                                                                            *Hyderabad, India (Jul 2019 - Apr 2024)*
 
  • Built a high-risk authorization system and new tracking metrics for Amazon Japan, cutting fraud authorization related support cases by 32% and reducing repeat ATO cases by 48%
 
