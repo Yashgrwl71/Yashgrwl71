@@ -82,7 +82,10 @@ We presented the deal to a group of 10 investors, laying out our investment thes
 
   <a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/main/CCC_MarketMavericks%20Final%20Product.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a> 
   
-- ### **3-Statement Financial Model**  
+- ### **3-Statement Financial Model**
+
+**Project:** 3- Statement Financial Model
+
   Fully integrated model linking income statement, balance sheet, and cash flow for forecasting and scenario analysis.
 
   <a href="https://github.com/Yashgrwl71/Yashgrwl71/blob/main/3-Statement%20Model.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a> 
