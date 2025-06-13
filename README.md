@@ -4,7 +4,7 @@
 
 <a href="https://www.linkedin.com/in/yashgrwl71"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:yash.agrawal9229@gmail.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" /></a>
-<a href="https://github.com/Yashgrwl71/Yashgrwl71/blob/main/Yash%20Investment%20Analyst%20Resume%20New.pdf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Download%20My%20Resume-0072b1?style=for-the-badge&logo=pdf&logoColor=white" alt="Download My Resume"> </a> 
+<a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/main/Yash%20Investment%20Analyst%20Resume%20New.pdf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Download%20My%20Resume-0072b1?style=for-the-badge&logo=pdf&logoColor=white" alt="Download My Resume"> </a> 
 ---
 
 ## 📑 Table of Contents
