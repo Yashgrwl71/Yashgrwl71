@@ -116,13 +116,6 @@ This model showcases my ability to build clean, structured financial models usin
 - **Software & Tools:** Bloomberg Terminal, Capital IQ, Pitchbook, Microsoft Excel (Advanced), PowerPoint
 
 ---
-
-## 📈 Experience Highlights
-
-## 📈 Experience Highlights
-
-## 📈 Experience Highlights
-
 ## 📈 Experience Highlights
 
 <table>
