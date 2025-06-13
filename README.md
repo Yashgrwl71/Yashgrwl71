@@ -86,7 +86,13 @@ We presented the deal to a group of 10 investors, laying out our investment thes
 
 **Project:** 3- Statement Financial Model
 
-  Fully integrated model linking income statement, balance sheet, and cash flow for forecasting and scenario analysis.
+**Overview**
+
+This project is a fully integrated 3-statement financial model built for a case study. It includes dynamic linkages between the income statement, balance sheet, and cash flow statement. The model is driven by clear assumptions for revenue growth, margin profiles, working capital cycles, and capital structure, allowing for multi-year forecasting. It also includes built-in checks for accuracy and key financial ratios such as current ratio and interest coverage.
+
+**Project Significance**
+
+This model showcases my ability to build clean, structured financial models using core finance principles. It reflects real-world applications such as forecasting, scenario planning, and valuation groundwork. I designed the model to be both functional and transparent, with manual inputs and assumptions clearly separated from calculated fields. It demonstrates my skills in financial analysis, Excel modeling, and translating business operations into financial projections — key tools used in investment banking, private equity, and corporate finance roles.
 
   <a href="https://github.com/Yashgrwl71/Yashgrwl71/blob/main/3-Statement%20Model.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a> 
 
