@@ -121,7 +121,7 @@ This model showcases my ability to build clean, structured financial models usin
 
 <table>
   <tr>
-    <td style="text-align: left; font-weight: bold; width: 70%;">**Investment Analyst, Center for Medical Innovation<**/td>
+    <td style="text-align: left; font-weight: bold; width: 70%;">**Investment Analyst, Center for Medical Innovation**</td>
     <td style="text-align: right; width: 30%;">Salt Lake City, UT (May 2024 - May 2025)</td>
   </tr>
   <tr>
