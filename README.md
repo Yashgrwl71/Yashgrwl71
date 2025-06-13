@@ -120,7 +120,8 @@ This model showcases my ability to build clean, structured financial models usin
 
 - **Investment Analyst, Center for Medical Innovation**
 
-  *Salt Lake City, UT (May 2024 - May 2025)*  
+  *Salt Lake City, UT (May 2024 - May 2025)*
+
 
      • Conducted market assessments for 10+ novel medical devices, evaluating commercial viability and presenting recommendations to leadership on opportunities with $395M+ serviceable market
 
@@ -129,6 +130,7 @@ This model showcases my ability to build clean, structured financial models usin
 - **Investment Analyst, Student Investment Fund**
 
   *Salt Lake City, UT (Aug 2024 - May 2025)*
+  
 
      • Managed a $1.1M student-run fund, deploying public equity and macro strategies to generate alpha and mitigate portfolio risk
 
@@ -141,13 +143,15 @@ This model showcases my ability to build clean, structured financial models usin
 
   *Salt Lake City, UT (May 2024 - Dec 2025)*
 
+
      • Conducted due diligence, financial and impact analysis, and valuation for 6 early-stage ventures; supported IC memos, founder interviews, and investment decisions
 
      • Participated in the end-to-end investment process, deploying $550K across 3 startups in healthcare and edtech; independently sourced 300+ startups and screened 45+ for high-potential opportunities
 
 - **Fraud Analyst, Goldman Sachs & Co**
 
-  *Bengaluru, India (Apr 2023 - Jul 2023)*                                                                      
+  *Bengaluru, India (Apr 2023 - Jul 2023)*
+                                                                      
 
      • Conducted in-depth fraud investigations, process enhancements, and fostered cross-team collaboration to strengthen fraud prevention for Apple Cards
 
@@ -158,7 +162,8 @@ This model showcases my ability to build clean, structured financial models usin
 
   *Hyderabad, India (Jul 2019 - Apr 2024)*
 
-    • Built a high-risk authorization system and new tracking metrics for Amazon Japan, cutting fraud authorization related support cases by 32% and reducing repeat ATO cases by 48%
+
+    • Built a high-risk authorization system and new tracking metrics for Amazon Japan, cutting fraud authorization related support cases by 32% and reducing repeat ATO cases by 48%
 
     • Handpicked to set up core processes for the Japan marketplace ops team - designed 6 major and 13 minor workflows, and trained 28 investigators as part of a new advisory team to strengthen fraud compliance
 
