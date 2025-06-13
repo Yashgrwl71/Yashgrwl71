@@ -119,10 +119,12 @@ This model showcases my ability to build clean, structured financial models usin
 
 ## 📈 Experience Highlights
 
+## 📈 Experience Highlights
+
 <table>
   <tr>
-    <td style="text-align: left; font-weight: bold; width: 70%;">**Investment Analyst, Center for Medical Innovation**</td>
-    <td style="text-align: right; width: 30%;">Salt Lake City, UT (May 2024 - May 2025)</td>
+    <td style="text-align: left; font-weight: bold; width: 70%;">Investment Analyst, Center for Medical Innovation</td>
+    <td style="text-align: right; font-style: italic; width: 30%;">Salt Lake City, UT (May 2024 - May 2025)</td>
   </tr>
   <tr>
     <td colspan="2" style="padding-left: 20px;">
@@ -133,8 +135,8 @@ This model showcases my ability to build clean, structured financial models usin
     </td>
   </tr>
   <tr>
-    <td style="text-align: left; font-weight: bold; width: 70%;">**Investment Analyst, Student Investment Fund**</td>
-    <td style="text-align: right; width: 30%;">Salt Lake City, UT (Aug 2024 - May 2025)</td>
+    <td style="text-align: left; font-weight: bold; width: 70%;">Investment Analyst, Student Investment Fund</td>
+    <td style="text-align: right; font-style: italic; width: 30%;">Salt Lake City, UT (Aug 2024 - May 2025)</td>
   </tr>
   <tr>
     <td colspan="2" style="padding-left: 20px;">
@@ -146,8 +148,8 @@ This model showcases my ability to build clean, structured financial models usin
     </td>
   </tr>
   <tr>
-    <td style="text-align: left; font-weight: bold; width: 70%;">**Investment Analyst, Sorenson Impact Institute**</td>
-    <td style="text-align: right; width: 30%;">Salt Lake City, UT (May 2024 - Dec 2025)</td>
+    <td style="text-align: left; font-weight: bold; width: 70%;">Investment Analyst, Sorenson Impact Institute</td>
+    <td style="text-align: right; font-style: italic; width: 30%;">Salt Lake City, UT (May 2024 - Dec 2025)</td>
   </tr>
   <tr>
     <td colspan="2" style="padding-left: 20px;">
@@ -158,8 +160,8 @@ This model showcases my ability to build clean, structured financial models usin
     </td>
   </tr>
   <tr>
-    <td style="text-align: left; font-weight: bold; width: 70%;">**Fraud Analyst, Goldman Sachs & Co**</td>
-    <td style="text-align: right; width: 30%;">Bengaluru, India (Apr 2023 - Jul 2023)</td>
+    <td style="text-align: left; font-weight: bold; width: 70%;">Fraud Analyst, Goldman Sachs & Co</td>
+    <td style="text-align: right; font-style: italic; width: 30%;">Bengaluru, India (Apr 2023 - Jul 2023)</td>
   </tr>
   <tr>
     <td colspan="2" style="padding-left: 20px;">
@@ -170,8 +172,8 @@ This model showcases my ability to build clean, structured financial models usin
     </td>
   </tr>
   <tr>
-    <td style="text-align: left; font-weight: bold; width: 70%;">**Fraud Analyst, Amazon.com Inc**</td>
-    <td style="text-align: right; width: 30%;">Hyderabad, India (Jul 2019 - Apr 2024)</td>
+    <td style="text-align: left; font-weight: bold; width: 70%;">Fraud Analyst, Amazon.com Inc</td>
+    <td style="text-align: right; font-style: italic; width: 30%;">Hyderabad, India (Jul 2019 - Apr 2024)</td>
   </tr>
   <tr>
     <td colspan="2" style="padding-left: 20px;">
@@ -182,7 +184,6 @@ This model showcases my ability to build clean, structured financial models usin
     </td>
   </tr>
 </table>
-
 ---
 
 ## 🛠️ Software Tools
