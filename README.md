@@ -2,8 +2,6 @@
 
 💼 Investment Analyst | MBA & MS in Finance | CFA Level 1 | Financial Modeling | Data Analysis
 
-📧 yash.agrawal9229@gmail.com | 📞 +1-385-443-9229  | 🔗 [LinkedIn](https://www.linkedin.com/in/yashgrwl71)
-
 <a href="https://www.linkedin.com/in/yashgrwl71"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:yash.agrawal9229@gmail.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" /></a>
 <a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/main/Yash%20Investment%20Analyst%20Resume%20Updated.pdf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Download%20My%20Resume-0072b1?style=for-the-badge&logo=pdf&logoColor=white" alt="Download My Resume"> </a> 
@@ -16,7 +14,8 @@
     - [Equity Valuation](#Equity-Valuation)  
     - [Momentum Based Systematic Strategy](#Momentum-Based-Systematic-Strategy)
     - [Commodities Based Macro Strategy](#Commodities-Based-Macro-Strategy)
-    - [Chae Organics - Private Equity Buyout Deal](#Chae-Organics---Private-Equity-Buyout-deal) 
+    - [Chae Organics - Private Equity Buyout Deal](#Chae-Organics---Private-Equity-Buyout-deal)
+    - 
 4. [💰 Financial Models](#-financial-models)
 5. [📜 Certifications](#-certifications)
 6. [📈 Experience Highlights](#-experience-highlights)
@@ -83,6 +82,12 @@ Our team worked on the Chae Organics acquisition by sourcing the opportunity, sc
 We presented the deal to a group of 10 investors, laying out our investment thesis, valuation, and scenario analysis for the proposed $5.75 million acquisition. Our analysis showed a strong base case IRR of 72% and a 15.2x MOIC, making the opportunity very compelling. By staying in touch with the founders and working as a team, we were able to understand the company’s market position, growth opportunities, and how it could create value. This project showed how our team can find promising investment ideas, build relationships, and present deals in a clear, convincing way.
 
   <a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/main/CCC_MarketMavericks%20Final%20Product.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a> 
+  
+- ### **3-Statement Financial Model**  
+  Fully integrated model linking income statement, balance sheet, and cash flow for forecasting and scenario analysis.
+
+
+   <a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/main/3-Statement%20Model.xlsx" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a> 
 
 ---
 
