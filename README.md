@@ -147,9 +147,9 @@ This model showcases my ability to build clean, structured financial models usin
 
 
 
-     • Conducted due diligence, financial and impact analysis, and valuation for 6 early-stage ventures; supported IC memos, founder interviews, and investment decisions
+     --Conducted due diligence, financial and impact analysis, and valuation for 6 early-stage ventures; supported IC memos, founder interviews, and investment decisions
 
-     • Participated in the end-to-end investment process, deploying $550K across 3 startups in healthcare and edtech; independently sourced 300+ startups and screened 45+ for high-potential opportunities
+     --Participated in the end-to-end investment process, deploying $550K across 3 startups in healthcare and edtech; independently sourced 300+ startups and screened 45+ for high-potential opportunities
 
 - **Fraud Analyst, Goldman Sachs & Co**
 
@@ -157,9 +157,9 @@ This model showcases my ability to build clean, structured financial models usin
 
                                                               
 
-     • Conducted in-depth fraud investigations, process enhancements, and fostered cross-team collaboration to strengthen fraud prevention for Apple Cards
+     --Conducted in-depth fraud investigations, process enhancements, and fostered cross-team collaboration to strengthen fraud prevention for Apple Cards
 
-     • Uncovered potential frauds & influenced improvements in prevention measures by effectively communicating findings to the team                                                           
+     --Uncovered potential frauds & influenced improvements in prevention measures by effectively communicating findings to the team                                                           
 
 
 - **Fraud Analyst, Amazon.com Inc**
@@ -168,9 +168,9 @@ This model showcases my ability to build clean, structured financial models usin
 
 
 
-    • Built a high-risk authorization system and new tracking metrics for Amazon Japan, cutting fraud authorization related support cases by 32% and reducing repeat ATO cases by 48%
+    --Built a high-risk authorization system and new tracking metrics for Amazon Japan, cutting fraud authorization related support cases by 32% and reducing repeat ATO cases by 48%
 
-    • Handpicked to set up core processes for the Japan marketplace ops team - designed 6 major and 13 minor workflows, and trained 28 investigators as part of a new advisory team to strengthen fraud compliance
+    --Handpicked to set up core processes for the Japan marketplace ops team - designed 6 major and 13 minor workflows, and trained 28 investigators as part of a new advisory team to strengthen fraud compliance
 
 ---
 
