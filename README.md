@@ -94,7 +94,7 @@ This project is a fully integrated 3-statement financial model built for a case 
 
 This model showcases my ability to build clean, structured financial models using core finance principles. It reflects real-world applications such as forecasting, scenario planning, and valuation groundwork. I designed the model to be both functional and transparent, with manual inputs and assumptions clearly separated from calculated fields. It demonstrates my skills in financial analysis, Excel modeling, and translating business operations into financial projections — key tools used in investment banking, private equity, and corporate finance roles.
 
-  <a href="https://github.com/Yashgrwl71/Yashgrwl71/blob/main/3-Statement%20Model.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a> 
+  <a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/main/3-Statement%20Model.pdf" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20presentation-FF0000?style=for-the-badge&logo=download&logoColor=white" alt="Download Presentation" /> </a> 
 
    <a href="https://github.com/Yashgrwl71/Yashgrwl71/raw/main/3-Statement%20Model.xlsx" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/-Click%20here%20to%20download%20the%20Model-4CAF50?style=for-the-badge&logo=download&logoColor=white" alt="Download Model" /> </a> 
 
