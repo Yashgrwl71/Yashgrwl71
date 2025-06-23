@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URS Investment Dashboard: Performance, Outlook & Strategy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Base styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F9F9F9; /* Light Gray */
+            color: #333333; /* Dark Gray for text */
+        }
+        .section-header {
+            color: #0047AB; /* Brilliant Blue */
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2.25rem; /* text-4xl */
+            line-height: 2.5rem; /* leading-10 */
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.5rem; /* rounded-lg */
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); /* shadow-md */
+            padding: 1.5rem; /* p-6 */
+        }
+        /* Chart container responsive styling */
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px; /* Limit max width for readability */
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px; /* Base height for mobile/small screens */
+            max-height: 400px; /* Max height to prevent excessive stretching */
+        }
+        @media (min-width: 768px) { /* md breakpoint */
+            .chart-container {
+                height: 350px; /* Slightly taller on larger screens */
+            }
+        }
+        .kpi-value {
+            font-size: 2.5rem; /* text-4xl */
+            font-weight: 700;
+            color: #FF6F61; /* Energetic Red */
+            margin-top: 0.5rem; /* mt-2 */
+            margin-bottom: 0.5rem; /* mb-2 */
+            text-align: center;
+        }
+        .kpi-label {
+            font-size: 0.875rem; /* text-sm */
+            color: #6B5B95; /* Energetic Purple */
+            font-weight: 500;
+            text-align: center;
+        }
+        .recommendation-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+        .recommendation-icon {
+            background-color: #0047AB; /* Brilliant Blue */
+            color: white;
+            border-radius: 9999px; /* rounded-full */
+            width: 2.5rem; /* w-10 */
+            height: 2.5rem; /* h-10 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            flex-shrink: 0;
+            margin-right: 0.75rem; /* mr-3 */
+        }
+        .recommendation-content {
+            flex-grow: 1;
+        }
+        .recommendation-title {
+            font-weight: 600;
+            color: #0047AB;
+            font-size: 1.125rem; /* text-lg */
+        }
+        .recommendation-rationale {
+            font-size: 0.875rem; /* text-sm */
+            color: #4A5568; /* Tailwind gray-700 equivalent */
+            margin-top: 0.25rem;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Color Palette: Energetic & Playful (#FF6F61, #6B5B95, #88B04B, #F7CAC9, #92A8D1, #009B77, #0047AB) -->
+    <!-- No SVG or Mermaid JS used. -->
+
+    <header class="bg-[#0047AB] text-white p-6 md:p-8 text-center shadow-lg">
+        <h1 class="text-4xl md:text-5xl font-bold mb-2">URS Investment Dashboard</h1>
+        <p class="text-lg md:text-xl text-gray-200">Performance, Allocation, Outlook & Strategy for a Leading Pension Fund</p>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        <!-- Section: Fund Snapshot - KPIs -->
+        <section id="fund-snapshot" class="mb-12">
+            <h2 class="section-header text-4xl mb-6">URS Fund Snapshot (as of Dec 31, 2024)</h2>
+            <p class="max-w-3xl mx-auto text-center text-gray-600 mb-8">A high-level overview of Utah Retirement Systems' financial health and impact, demonstrating its robust position to meet long-term obligations.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="card flex flex-col items-center justify-center">
+                    <span class="kpi-label">Total Funds Under Management</span>
+                    <p class="kpi-value text-[#FF6F61]">$48.0B</p>
+                    <span class="kpi-label">(Defined Benefit Plan)</span>
+                </div>
+                <div class="card flex flex-col items-center justify-center">
+                    <span class="kpi-label">Overall Funded Status</span>
+                    <p class="kpi-value text-[#88B04B]">95.1%</p>
+                    <span class="kpi-label">(All Systems, 2024 ACFR)</span>
+                </div>
+                <div class="card flex flex-col items-center justify-center">
+                    <span class="kpi-label">Total Fund Return (2024)</span>
+                    <p class="kpi-value text-[#009B77]">7.51%</p>
+                    <span class="kpi-label">(Annualized, Net of Fees)</span>
+                </div>
+                <div class="card flex flex-col items-center justify-center">
+                    <span class="kpi-label">2024 Pension Payouts</span>
+                    <p class="kpi-value text-[#92A8D1]">$2.1B</p>
+                    <span class="kpi-label">(to 72,400+ Retirees)</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Historical Fund Performance & Growth -->
+        <section id="historical-performance" class="mb-12">
+            <h2 class="section-header text-4xl mb-6">Historical Fund Performance & Growth</h2>
+            <p class="max-w-3xl mx-auto text-center text-gray-600 mb-8">Consistent growth over the past decade demonstrates the fund's resilience and long-term compounding effect, crucial for a defined benefit plan.</p>
+            <div class="card md:col-span-2">
+                <h3 class="text-xl font-bold mb-4 text-center text-[#6B5B95]">URS Pension Fund Growth (2015-2024)</h3>
+                <div class="chart-container h-72 md:h-96">
+                    <canvas id="fundGrowthChart"></canvas>
+                </div>
+                <p class="mt-4 text-sm text-gray-600">The chart above illustrates the impressive growth of the URS Defined Benefit Pension Fund over the last decade, reaching $48.0 billion by the end of 2024. This consistent upward trend, despite market fluctuations, underscores the power of long-term compounding and strategic asset allocation in building a robust financial base for retirees.</p>
+            </div>
+
+             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                <div class="card">
+                    <h3 class="text-xl font-bold mb-4 text-center text-[#FF6F61]">2024 Asset Class Performance</h3>
+                    <div class="chart-container h-64 md:h-80">
+                        <canvas id="assetClassPerformanceChart"></canvas>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-600">Individual asset classes contributed to the overall 7.51% total fund return in 2024. Equity securities led with robust performance, while debt and real assets provided stability. Understanding these granular returns is key to performance attribution.</p>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-bold mb-4 text-center text-[#009B77]">Total Fund Returns (Annualized)</h3>
+                    <div class="chart-container h-64 md:h-80">
+                        <canvas id="totalFundReturnsChart"></canvas>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-600">Long-term annualized returns are critical for pension funds. URS has consistently delivered strong performance over 1, 3, 5, and 10-year periods, reflecting a well-diversified and prudently managed portfolio designed to meet multi-decade obligations.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Portfolio Allocation -->
+        <section id="portfolio-allocation" class="mb-12">
+            <h2 class="section-header text-4xl mb-6">Portfolio Allocation & Asset-Liability Alignment</h2>
+            <p class="max-w-3xl mx-auto text-center text-gray-600 mb-8">URS employs a diversified asset allocation strategy across traditional and alternative investments to balance growth, risk, and long-term liability matching. The funded status is a critical indicator of this alignment.</p>
+            <div class="card flex flex-col md:flex-row items-center md:items-start p-6 md:p-8">
+                <div class="w-full md:w-1/2 flex flex-col items-center">
+                    <h3 class="text-xl font-bold mb-4 text-center text-[#6B5B95]">URS Defined Benefit Asset Allocation (Dec 31, 2024)</h3>
+                    <div class="chart-container h-72 md:h-96">
+                        <canvas id="portfolioAllocationChart"></canvas>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-600 text-center md:text-left">The diversified allocation reflects URS's strategic approach to achieving long-term objectives while managing risk. A significant portion is allocated to equities for growth and alternatives for diversification and illiquidity premium.</p>
+                </div>
+                <div class="w-full md:w-1/2 md:pl-8 mt-8 md:mt-0">
+                    <h3 class="text-xl font-bold mb-4 text-center md:text-left text-[#0047AB]">Asset vs. Liability: Funded Status</h3>
+                    <div class="flex flex-col items-center md:items-start mb-6">
+                        <div class="text-5xl font-bold text-[#88B04B]">95.1%</div>
+                        <p class="text-lg text-[#6B5B95] mt-2">Funded Status (All Systems, 2024)</p>
+                        <p class="text-sm text-gray-600 mt-2 text-center md:text-left">The funded status indicates the proportion of assets available to meet future pension liabilities. At 95.1%, URS remains among the most well-funded public pension systems nationally, demonstrating strong fiscal health and commitment to its obligations.</p>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-center md:text-left text-[#0047AB]">Key Alternative Investment Breakdown</h3>
+                    <div class="space-y-4">
+                        <div class="p-4 rounded-lg bg-[#F7CAC9] border border-[#FF6F61] text-sm">
+                            <h4 class="font-bold text-[#FF6F61] mb-1">Real Assets ($9.1B)</h4>
+                            <ul class="list-disc list-inside text-gray-700">
+                                <li>Direct Real Estate: $4.7B</li>
+                                <li>Commingled Funds: $1.2B</li>
+                                <li>Energy & Minerals: $2.2B</li>
+                                <li>Infrastructure: $0.3B</li>
+                                <li>Agriculture, Timber & Other: $0.7B</li>
+                            </ul>
+                            <p class="mt-2 text-xs text-gray-600">Diversification across tangible assets like properties, energy, and infrastructure provides inflation hedging and stable income streams.</p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-[#E0F2F7] border border-[#92A8D1] text-sm">
+                            <h4 class="font-bold text-[#92A8D1] mb-1">Absolute Return ($7.2B)</h4>
+                            <ul class="list-disc list-inside text-gray-700">
+                                <li>Relative Value: $1.8B</li>
+                                <li>Event Driven: $1.5B</li>
+                                <li>Directional: $1.3B</li>
+                                <li>Plus Funds & Equity L/S: $1.8B</li>
+                                <li>Multistrategy: $0.03B</li>
+                            </ul>
+                            <p class="mt-2 text-xs text-gray-600">Strategies aiming for positive returns regardless of market conditions, providing crucial portfolio stabilization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Macro Environment & Future Outlook -->
+        <section id="macro-outlook" class="mb-12">
+            <h2 class="section-header text-4xl mb-6">Macro Environment & Strategic Outlook (2025)</h2>
+            <p class="max-w-3xl mx-auto text-center text-gray-600 mb-8">Anticipating macroeconomic shifts and identifying key trends are vital for proactive portfolio positioning. This section highlights the market drivers and potential opportunities for the coming year.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="card">
+                    <h3 class="text-xl font-bold mb-4 text-center text-[#6B5B95]">Key Macro Indicators: Trends & Projections</h3>
+                    <div class="chart-container h-64 md:h-80">
+                        <canvas id="macroTrendsChart"></canvas>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-600">Global inflation is moderating but upside risks remain. Central bank policy rates are expected to recalibrate, influencing borrowing costs and asset valuations. Geopolitical tensions continue to introduce volatility and supply chain concerns, requiring careful monitoring.</p>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-bold mb-4 text-center text-[#0047AB]">Limited Partner (LP) Sentiment & Challenges</h3>
+                    <div class="chart-container h-64 md:h-80">
+                        <canvas id="lpSentimentChart"></canvas>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-600">Institutional investors remain concerned about inflation, interest rates, and geopolitical risks, reflecting a complex environment. However, there is strong conviction that private markets will continue to outperform public markets over the long term, driving increased allocations to alternatives, particularly co-investments.</p>
+                </div>
+            </div>
+
+            <div class="card mt-8 p-6">
+                <h3 class="text-xl font-bold mb-4 text-center text-[#88B04B]">Hot Sectors & Key Investment Trends for 2025</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-sm">
+                    <div>
+                        <h4 class="font-bold text-[#FF6F61] mb-1">Private Equity & Credit:</h4>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>PE deal value +14% YoY in 2024.</li>
+                            <li>Fundraising -24% YoY, new capital sources.</li>
+                            <li>Private credit AUM at $1.6T in 2023.</li>
+                            <li>LP co-investment intent: 88% plan to increase.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-[#6B5B95] mb-1">Energy Transition:</h4>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Renewables, Nuclear (SMRs), Carbon Capture.</li>
+                            <li>Critical bottleneck: Grid infrastructure.</li>
+                            <li>AI driving massive data center power demand.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-[#009B77] mb-1">Infrastructure:</h4>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Deal value +18% YoY in 2024.</li>
+                            <li>LP desire to increase allocation: 46%.</li>
+                            <li>AI-driven data center demand (66 GW in 2024 to ~219 GW by 2030).</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-[#92A8D1] mb-1">Critical Minerals Mining:</h4>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Surging demand for EV/battery minerals (e.g., copper, lithium).</li>
+                            <li>Supply chain vulnerabilities & geopolitical focus.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-[#FF6F61] mb-1">Technology & AI:</h4>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Top sectors for LPs (47%).</li>
+                            <li>AI investment driving growth equity.</li>
+                            <li>Global AI CapEx projected to $337B in 2025.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-[#6B5B95] mb-1">Impact Investing:</h4>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Full integration into core strategies.</li>
+                            <li>Focus on both financial & ESG impact.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Key Strategic Recommendations -->
+        <section id="recommendations" class="mb-12">
+            <h2 class="section-header text-4xl mb-6">Strategic Perspectives for URS</h2>
+            <p class="max-w-3xl mx-auto text-center text-gray-600 mb-8">My perspective on proactive strategies aligned with URS's long-term objectives and the evolving market landscape to enhance returns and mitigate risks.</p>
+
+            <div class="card grid grid-cols-1 md:grid-cols-2 gap-8 p-6">
+                <div class="recommendation-item">
+                    <div class="recommendation-icon">1</div>
+                    <div class="recommendation-content">
+                        <h3 class="recommendation-title">Strategic Tilts to Real Assets for Inflation & Growth</h3>
+                        <p class="recommendation-rationale">In my view, increasing exposure to well-selected **infrastructure** and **critical minerals** presents a compelling opportunity to both hedge against persistent inflation and capture long-term structural growth, particularly from the **energy transition** and **AI-driven demands** for power and data centers. This aligns with a core focus of the Alternatives team.</p>
+                    </div>
+                </div>
+                <div class="recommendation-item">
+                    <div class="recommendation-icon">2</div>
+                    <div class="recommendation-content">
+                        <h3 class="recommendation-title">Leveraging Private Equity through Co-Investments</h3>
+                        <p class="recommendation-rationale">I believe optimizing private equity exposure through increased co-investment activity offers a highly efficient way to enhance net returns by reducing fees and gaining more direct exposure to high-conviction deals. This approach allows for greater control while still benefiting from top-tier General Partner expertise across sectors relevant to private markets.</p>
+                    </div>
+                </div>
+                <div class="recommendation-item">
+                    <div class="recommendation-icon">3</div>
+                    <div class="recommendation-content">
+                        <h3 class="recommendation-title">Enhancing Portfolio Stability via Absolute Return Strategies</h3>
+                        <p class="recommendation-rationale">My perspective suggests maintaining or potentially adjusting allocations to robust absolute return strategies. These can serve as crucial portfolio stabilizers, providing downside protection and true diversification, especially in an uncertain and volatile macroeconomic environment, contributing to more consistent fund performance.</p>
+                    </div>
+                </div>
+                <div class="recommendation-item">
+                    <div class="recommendation-icon">4</div>
+                    <div class="recommendation-content">
+                        <h3 class="recommendation-title">Prioritizing Holistic Risk Management</h3>
+                        <p class="recommendation-rationale">I see a critical ongoing need to prioritize robust, holistic risk management across all operations and investments. This includes not just traditional financial risks, but also enhanced operational due diligence and cybersecurity protocols for all external managers to protect fund assets from evolving non-investment threats, especially given the opacity of some private market segments.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center p-4 text-sm">
+        <p>URS Investment Dashboard. Data sourced from URS 2024 Annual Comprehensive Financial Report (ACFR) & Summary Annual Report (SAR), and general market outlooks/surveys (e.g., McKinsey Global Private Markets Report 2025).</p>
+        <p class="mt-1">Color Palette: Energetic & Playful. No SVG or Mermaid JS used. Data is based on publicly available information and general market trends.</p>
+    </footer>
+
+    <script>
+        // Chart.js global tooltip configuration for multi-line labels
+        const chartTooltipCallback = {
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            const item = tooltipItems[0];
+                            let label = item.chart.data.labels[item.dataIndex];
+                            if (Array.isArray(label)) {
+                                return label.join(' ');
+                            } else {
+                                return label;
+                            }
+                        },
+                        label: function(context) {
+                            let label = context.dataset.label || '';
+                            if (label) {
+                                label += ': ';
+                            }
+                            // Check chart ID to apply specific formatting for percentages or billions
+                            if (context.parsed.y !== null) { // For vertical bars/lines
+                                if (context.chart.canvas.id === 'assetClassPerformanceChart' || 
+                                    context.chart.canvas.id === 'totalFundReturnsChart' || 
+                                    context.chart.canvas.id === 'macroTrendsChart') {
+                                    label += new Intl.NumberFormat('en-US', { style: 'decimal', minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(context.parsed.y) + '%';
+                                } else if (context.chart.canvas.id === 'fundGrowthChart') {
+                                    label += '$' + new Intl.NumberFormat('en-US', { style: 'decimal', minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(context.parsed.y) + 'B';
+                                } else if (context.chart.canvas.id === 'lpSentimentChart') { // For horizontal bars
+                                    label += new Intl.NumberFormat('en-US', { style: 'decimal', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(context.parsed.x) + '%';
+                                } else if (context.chart.canvas.id === 'portfolioAllocationChart') { // Doughnut chart
+                                    label += new Intl.NumberFormat('en-US', { style: 'decimal', minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(context.parsed) + '%';
+                                } else {
+                                    label += new Intl.NumberFormat('en-US', { style: 'decimal' }).format(context.parsed.y);
+                                }
+                            } else if (context.parsed.x !== null && context.chart.canvas.id === 'lpSentimentChart') { // Specific for horizontal bar chart's x-axis value
+                                label += new Intl.NumberFormat('en-US', { style: 'decimal', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(context.parsed.x) + '%';
+                            }
+                            return label;
+                        }
+                    }
+                }
+            }
+        };
+
+        // Helper function to wrap long labels for Chart.js
+        function wrapLabels(label, maxWidthChars) {
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+            for (const word of words) {
+                if ((currentLine + word).length > maxWidthChars && currentLine.length > 0) {
+                    lines.push(currentLine.trim());
+                    currentLine = '';
+                }
+                currentLine += word + ' ';
+            }
+            lines.push(currentLine.trim());
+            return lines;
+        }
+
+        // Energetic & Playful Color Palette (HEX codes)
+        const energeticPalette = ['#FF6F61', '#6B5B95', '#88B04B', '#F7CAC9', '#92A8D1', '#009B77', '#0047AB'];
+
+        // Ensure all chart initializations happen after the window has fully loaded
+        window.onload = function() {
+            // URS Pension Fund Growth (from 2024 SAR, Page 5)
+            new Chart(document.getElementById('fundGrowthChart'), {
+                type: 'line',
+                data: {
+                    labels: ['2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'],
+                    datasets: [{
+                        label: 'Fund Value (Billion)',
+                        data: [26.7, 28.5, 31.9, 31.3, 35.2, 39.0, 45.1, 42.1, 45.3, 48.0],
+                        borderColor: energeticPalette[0], /* Energetic Red */
+                        backgroundColor: 'rgba(255, 111, 97, 0.2)',
+                        fill: true,
+                        tension: 0.4,
+                        pointBackgroundColor: energeticPalette[0],
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: energeticPalette[0],
+                    }]
+                },
+                options: {
+                    ...chartTooltipCallback,
+                    maintainAspectRatio: false,
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Fund Value (Billions USD)'
+                            },
+                            ticks: {
+                                callback: function(value) {
+                                    return value + 'B';
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        ...chartTooltipCallback.plugins,
+                        legend: {
+                            display: false // Hide dataset label
+                        }
+                    }
+                }
+            });
+
+            // 2024 Asset Class Performance (from 2024 ACFR, Page 39)
+            new Chart(document.getElementById('assetClassPerformanceChart'), {
+                type: 'bar',
+                data: {
+                    labels: [
+                        wrapLabels('Equity Securities', 12),
+                        wrapLabels('Debt Securities', 12),
+                        wrapLabels('Real Assets', 12),
+                        wrapLabels('Private Equity', 12),
+                        wrapLabels('Short-term', 12),
+                        wrapLabels('Absolute Return', 12)
+                    ],
+                    datasets: [{
+                        label: 'Return (%)',
+                        data: [14.27, 1.60, 2.75, 4.71, 3.48, 7.14],
+                        backgroundColor: [
+                            energeticPalette[5], /* Green */
+                            energeticPalette[4], /* Blue */
+                            energeticPalette[2], /* Lime Green */
+                            energeticPalette[1], /* Purple */
+                            energeticPalette[3], /* Pink */
+                            energeticPalette[0]  /* Red */
+                        ],
+                        borderColor: '#fff',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    ...chartTooltipCallback,
+                    maintainAspectRatio: false,
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Return (%)'
+                            },
+                            ticks: {
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        ...chartTooltipCallback.plugins,
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+
+            // Total Fund Returns (Annualized) (from 2024 ACFR, Page 185)
+            new Chart(document.getElementById('totalFundReturnsChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['1 Year', '3 Year', '5 Year', '10 Year'],
+                    datasets: [{
+                        label: 'Annualized Return (%)',
+                        data: [7.51, 3.76, 8.18, 7.86],
+                        backgroundColor: [
+                            energeticPalette[0], /* Red */
+                            energeticPalette[1], /* Purple */
+                            energeticPalette[2], /* Green */
+                            energeticPalette[5]  /* Dark Green */
+                        ],
+                        borderColor: '#fff',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    ...chartTooltipCallback,
+                    maintainAspectRatio: false,
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Return (%)'
+                            },
+                            ticks: {
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        ...chartTooltipCallback.plugins,
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+
+            // URS Defined Benefit Asset Allocation (from 2024 ACFR, Page 39)
+            new Chart(document.getElementById('portfolioAllocationChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: [
+                        'Equity Securities (33.6%)',
+                        'Real Assets (19.0%)',
+                        'Absolute Return (15.0%)',
+                        'Debt Securities (15.2%)',
+                        'Private Equity (11.8%)',
+                        'Short-term Securities (5.4%)'
+                    ].map(label => wrapLabels(label, 16)),
+                    datasets: [{
+                        label: 'Allocation %',
+                        data: [33.6, 19.0, 15.0, 15.2, 11.8, 5.4],
+                        backgroundColor: [
+                            energeticPalette[0], /* Red */
+                            energeticPalette[1], /* Purple */
+                            energeticPalette[2], /* Green */
+                            energeticPalette[3], /* Pink */
+                            energeticPalette[4], /* Blue */
+                            energeticPalette[5]  /* Dark Green */
+                        ],
+                        hoverOffset: 4
+                    }]
+                },
+                options: {
+                    ...chartTooltipCallback,
+                    maintainAspectRatio: false,
+                    responsive: true,
+                    plugins: {
+                        ...chartTooltipCallback.plugins,
+                        legend: {
+                            position: 'right',
+                            labels: {
+                                generateLabels: function(chart) {
+                                    const data = chart.data;
+                                    if (data.labels.length && data.datasets.length) {
+                                        const dataset = data.datasets[0]; // Get the dataset
+                                        return data.labels.map(function(label, i) {
+                                            const value = dataset.data[i];
+                                            return {
+                                                text: Array.isArray(label) ? label.join(' ') : label,
+                                                fillStyle: dataset.backgroundColor[i], // Corrected access
+                                                strokeStyle: dataset.borderColor ? dataset.borderColor[i] : '', // Corrected access, add check for borderColor existence
+                                                lineWidth: dataset.borderWidth || 0, // Corrected access, default to 0 if undefined
+                                                hidden: isNaN(value) || value === 0,
+                                                index: i
+                                            };
+                                        });
+                                    }
+                                    return [];
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Macro Trends Chart (Data from McKinsey Global Private Markets Report 2025, Page 8)
+            new Chart(document.getElementById('macroTrendsChart'), {
+                type: 'line',
+                data: {
+                    labels: ['2019', '2020', '2021', '2022', '2023', '2024'],
+                    datasets: [{
+                        label: 'Avg. Central Bank Interest Rate (%)',
+                        data: [2.2, 0.4, 0.1, 1.7, 5.0, 5.1],
+                        borderColor: energeticPalette[0], /* Energetic Red */
+                        backgroundColor: 'rgba(255, 111, 97, 0.2)',
+                        fill: false,
+                        tension: 0.4,
+                        pointBackgroundColor: energeticPalette[0],
+                    }, {
+                        label: 'Global Inflation Rate (%)',
+                        data: [3.5, 3.3, 4.7, 8.6, 6.7, 5.8],
+                        borderColor: energeticPalette[1], /* Energetic Purple */
+                        backgroundColor: 'rgba(107, 91, 149, 0.2)',
+                        fill: false,
+                        tension: 0.4,
+                        pointBackgroundColor: energeticPalette[1],
+                    }, {
+                        label: 'LP PE Target Allocation (%)',
+                        data: [6.1, 6.3, 6.8, 7.5, 8.2, 8.3],
+                        borderColor: energeticPalette[2], /* Lime Green */
+                        backgroundColor: 'rgba(136, 176, 75, 0.2)',
+                        fill: false,
+                        tension: 0.4,
+                        pointBackgroundColor: energeticPalette[2],
+                    }]
+                },
+                options: {
+                    ...chartTooltipCallback,
+                    maintainAspectRatio: false,
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: false,
+                            title: {
+                                display: true,
+                                text: 'Rate (%)'
+                            },
+                            ticks: {
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            // LP Sentiment Chart (Data from McKinsey Global Private Markets Report 2025, Page 24, Exhibit 13)
+            const lpSentimentLabels = [
+                'Inflation Concern',
+                'Interest Rate Concern',
+                'Geopolitical Risk Concern',
+                'Expect Private Market Outperformance',
+                'Plan to Increase Co-Investments'
+            ];
+            new Chart(document.getElementById('lpSentimentChart'), {
+                type: 'bar',
+                data: {
+                    labels: lpSentimentLabels.map(label => wrapLabels(label, 16)),
+                    datasets: [{
+                        label: 'LP Survey Response (%)',
+                        // These percentages are directly from the McKinsey report, Exhibit 13
+                        data: [86, 83, 83, 85, 88], // Using the values directly for clarity
+                        backgroundColor: [
+                            energeticPalette[0], /* Red */
+                            energeticPalette[1], /* Purple */
+                            energeticPalette[2], /* Green */
+                            energeticPalette[5], /* Dark Green */
+                            energeticPalette[4]  /* Blue */
+                        ],
+                        borderColor: '#fff',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    ...chartTooltipCallback,
+                    indexAxis: 'y', // Horizontal bar chart
+                    maintainAspectRatio: false,
+                    responsive: true,
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            max: 100,
+                            title: {
+                                display: true,
+                                text: 'Percentage of LPs (%)'
+                            },
+                            ticks: {
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        ...chartTooltipCallback.plugins,
+                        legend: {
+                            display: false
+                        }
+                    }
+                }
+            });
+        }; // End of window.onload
+    </script>
+</body>
+</html>
