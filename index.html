@@ -37,8 +37,8 @@ a{color:inherit}
 nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:1.1rem 2.5rem;background:rgba(250,246,238,0.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--border2)}
 .nav-logo{font-family:'Fraunces',serif;font-size:1.35rem;font-weight:400;letter-spacing:0.02em;color:var(--ink);text-decoration:none}
 .nav-logo span{color:var(--cobalt)}
-.nav-right{display:flex;gap:1.75rem;list-style:none;align-items:center}
-.nav-right a{font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-soft);text-decoration:none;transition:color 0.2s;white-space:nowrap}
+.nav-right{display:flex;gap:1.4rem;list-style:none;align-items:center}
+.nav-right a{font-size:0.64rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink-soft);text-decoration:none;transition:color 0.2s;white-space:nowrap}
 .nav-right a:hover{color:var(--cobalt)}
 .nav-cta{background:var(--cobalt);color:var(--bg)!important;padding:0.5rem 1.05rem;font-weight:500!important;letter-spacing:0.05em!important;border-radius:2px}
 .nav-cta:hover{background:var(--cobalt-dk)!important;color:var(--bg)!important}
@@ -165,6 +165,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 .placeholder-title{font-family:'Fraunces',serif;font-style:italic;font-size:1.05rem;color:var(--ink);margin-bottom:0.5rem}
 .placeholder-body{font-size:0.8rem;color:var(--ink-soft);max-width:440px;margin:0 auto}
 .insight-cadence{font-size:0.66rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--brass);margin-bottom:0.6rem}
+.confidential-note{font-size:0.68rem;color:var(--muted);font-style:italic;margin-top:1.5rem}
+.cmi-intro{font-size:0.85rem;color:var(--ink-soft);line-height:1.8;max-width:680px;margin:1.5rem 0 0}
 
 /* EDUCATION / RECOGNITION */
 .edu-block{margin-bottom:2rem}
@@ -238,7 +240,10 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 2
     <li><a href="#impact">Impact</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#models">Models</a></li>
-    <li><a href="#deepdives">Deep Dives</a></li>
+    <li><a href="#equity-research">Equity</a></li>
+    <li><a href="#private-markets">Private Markets</a></li>
+    <li><a href="#venture-deals">Venture</a></li>
+    <li><a href="#medtech-assessment">Medtech</a></li>
     <li><a href="#insights">Insights</a></li>
     <li><a href="#education">Education</a></li>
     <li><a href="#contact" class="nav-cta">Get in touch</a></li>
@@ -480,7 +485,7 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 2
       <div class="exp-headline">Sourced 300, funded 3.</div>
       <ul class="exp-bullets">
         <li>Conducted due diligence, financial and impact analysis, and valuation for 6 early-stage ventures; supported IC memos, founder interviews, and investment decisions.</li>
-        <li>Independently sourced 300+ startups and screened 45+, supporting $550K deployed across 3 healthcare and edtech ventures &mdash; including Zocalo Health ($250K, projected 11.6x CoC / 45.7% IRR) and Rebel Medicine ($50K, pre-seed diligence on a non-opioid pain therapy).</li>
+        <li>Independently sourced 300+ startups and screened 45+, supporting $550K deployed across 3 healthcare and edtech ventures &mdash; detailed under Venture Deals.</li>
       </ul>
     </div>
 
@@ -575,15 +580,14 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 2
   </div>
 </div>
 
-<!-- DEEP DIVES -->
-<div class="sec-wrap" id="deepdives">
+<!-- EQUITY RESEARCH -->
+<div class="sec-wrap" id="equity-research">
   <div class="sec-number">06</div>
-  <div class="sec-label">Industry deep dives</div>
-  <div class="sec-title">One-pagers &amp; theses</div>
-  <p class="sec-sub">Investment theses, portfolio strategies, and one market-strategy capstone &mdash; spanning public equities, real assets, and consumer markets.</p>
+  <div class="sec-label">Equity research</div>
+  <div class="sec-title">Public market calls</div>
+  <p class="sec-sub">Single-name equity research and systematic strategies built and traded through the University of Utah Student Investment Fund.</p>
 
-  <div class="group-label">Equity &amp; portfolio strategy &middot; Student Investment Fund</div>
-  <div class="project-grid">
+  <div class="project-grid" style="margin-top:2.5rem">
 
     <div class="project-card">
       <span class="proj-badge badge-eq">Equity Research</span>
@@ -596,7 +600,8 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 2
       <span class="proj-badge badge-pass">Equity Research &middot; Passed</span>
       <div class="proj-title">Tyson Foods &mdash; valuation &amp; pass decision</div>
       <div class="proj-desc">Evaluated Tyson after a 25% stock decline and at 12x earnings against a 15x historical average. Weighed a 3.8% dividend yield and depressed earnings against feed-cost volatility and a 45% max drawdown &mdash; ultimately did not invest.</div>
-      <a class="proj-link" href="Tyson%20Foods%20Valuation.pdf" target="_blank" download>↓ Download presentation</a>
+      <a class="proj-link" href="tyson-presentation.pdf" target="_blank" download style="margin-right:0.5rem">↓ Presentation</a>
+      <a class="proj-link" href="tyson-model.xlsx" target="_blank" download>↓ Financial model</a>
     </div>
 
     <div class="project-card">
@@ -613,17 +618,24 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 2
       <a class="proj-link" href="CCC_MarketMavericks%20Final%20Product.pdf" target="_blank" download>↓ Download presentation</a>
     </div>
 
+  </div>
+</div>
+
+<!-- PRIVATE MARKET INVESTMENT THESES -->
+<div class="sec-wrap" id="private-markets">
+  <div class="sec-number">07</div>
+  <div class="sec-label">Private market investment theses</div>
+  <div class="sec-title">Where public markets don't reach</div>
+  <p class="sec-sub">Real assets and buyout theses built around structural supply/demand imbalances and control transactions.</p>
+
+  <div class="project-grid" style="margin-top:2.5rem">
+
     <div class="project-card">
       <span class="proj-badge badge-pe">Private Equity</span>
       <div class="proj-title">Chae Organics &mdash; buyout analysis</div>
       <div class="proj-desc">Sourced, screened, and ran 10 weeks of preliminary diligence on a $5.75M acquisition in health and wellness, presenting a sourcing summary, diligence findings, and proposed deal structure to a panel of 10 investors.</div>
       <a class="proj-link" href="CCC_MarketMavericks%20Final%20Product.pdf" target="_blank" download>↓ Download presentation</a>
     </div>
-
-  </div>
-
-  <div class="group-label">Institutional real assets theses &middot; Infrastructure &amp; energy transition</div>
-  <div class="project-grid">
 
     <div class="project-card">
       <span class="proj-badge badge-real">Real Assets</span>
@@ -647,9 +659,89 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 2
     </div>
 
   </div>
+</div>
 
-  <div class="group-label">Strategy &amp; consulting &middot; MBA capstone</div>
-  <div class="project-grid">
+<!-- VENTURE DEALS -->
+<div class="sec-wrap" id="venture-deals">
+  <div class="sec-number">08</div>
+  <div class="sec-label">Venture deals</div>
+  <div class="sec-title">Sorenson Impact investments</div>
+  <p class="sec-sub">Deal-level diligence across education technology, pharmaceuticals, and healthtech &mdash; each with a social-impact thesis alongside a scalable business model.</p>
+
+  <div class="project-grid" style="margin-top:2.5rem">
+
+    <div class="project-card">
+      <span class="proj-badge badge-eq">Impact Venture</span>
+      <div class="proj-title">BrightBee &mdash; K-12 staffing marketplace</div>
+      <div class="proj-desc">Diligenced a two-sided marketplace connecting K-12 schools with classified staff (paraprofessionals, monitors, tutors), which scaled from 3 pilot schools to 30 within its first year at a 96% assignment fill rate. Supported a recommendation of up to $250K into a $400K&ndash;$500K pre-seed SAFE round at a $15M valuation cap.</div>
+    </div>
+
+    <div class="project-card">
+      <span class="proj-badge badge-eq">Impact Venture</span>
+      <div class="proj-title">Rebel Medicine &mdash; non-opioid pain therapeutics</div>
+      <div class="proj-desc">Diligenced Alevatrix, an extended-release non-opioid bupivacaine gel targeting 72&ndash;96 hours of postoperative pain relief with sub-$10 COGS. Supported a $50K recommendation from the Joan and Tim Fenton Founders Fund into a $7M Series A at an $18M pre-money valuation.</div>
+    </div>
+
+    <div class="project-card">
+      <span class="proj-badge badge-eq">Impact Venture</span>
+      <div class="proj-title">Z&oacute;calo Health &mdash; culturally competent care access</div>
+      <div class="proj-desc">Diligenced a community-health-worker-led care platform serving Latino and underserved populations, well positioned to capture value from Medicaid/commercial plans and California's Enhanced Care Management program. Supported a $250K recommendation into a $2.5M&ndash;$3M seed extension at a $16M valuation cap.</div>
+    </div>
+
+  </div>
+  <p class="confidential-note">Given the proprietary and confidential nature of this work, underlying diligence materials and deal memos are not shared publicly.</p>
+</div>
+
+<!-- MARKET & OPPORTUNITY ASSESSMENT -->
+<div class="sec-wrap" id="medtech-assessment">
+  <div class="sec-number">09</div>
+  <div class="sec-label">Market &amp; opportunity assessment</div>
+  <div class="sec-title">Medical device commercial diligence</div>
+  <p class="cmi-intro">At the Center for Medical Innovation, I led commercial due diligence and market validation for early-stage medical devices moving from concept toward commercialization &mdash; pairing primary research (clinician interviews, in-clinic observation) with TAM/SAM/SOM modeling, FDA regulatory pathway mapping, and reimbursement coding analysis. Across the program, I structured investment and go-to-market assessments for 10+ proprietary healthcare assets, five of which are summarized below.</p>
+
+  <div class="project-grid" style="margin-top:2rem">
+
+    <div class="project-card">
+      <span class="proj-badge badge-real">Medtech Assessment</span>
+      <div class="proj-title">Neonatal jaundice phototherapy device</div>
+      <div class="proj-desc">Assessed a wireless, swaddle-based phototherapy system designed to replace restrictive wired units and preserve mother-child bonding during treatment for neonatal jaundice, a condition affecting roughly 60% of U.S. newborns. Sized a $260.7M U.S. TAM and $108.7M SAM, with home-use phototherapy identified as the highest-growth segment at a 10% CAGR. Mapped a Class II Traditional 510(k) pathway and confirmed reimbursement viability under HCPCS E0202.</div>
+    </div>
+
+    <div class="project-card">
+      <span class="proj-badge badge-real">Medtech Assessment</span>
+      <div class="proj-title">TEE nasal balloon catheter</div>
+      <div class="proj-desc">Assessed an 11-French nasal balloon catheter enabling cardiac ultrasound imaging via nasal access, eliminating the sedation, recovery time, and cost of traditional oral TEE. Modeled a $255M TAM and $127M SAM against 850,000 annual U.S. TEE procedures, with an initial go-to-market plan targeting 30% SAM capture ($38M). Mapped a Class II 510(k) pathway and built a 12-week, $72,000 rapid-prototyping roadmap to validate safety.</div>
+    </div>
+
+    <div class="project-card">
+      <span class="proj-badge badge-real">Medtech Assessment</span>
+      <div class="proj-title">OcuGuide &mdash; LED eye fixation device</div>
+      <div class="proj-desc">Assessed a hands-free, microscope-mounted LED fixation system for cataract and glaucoma surgery. Sized a $39.9M global TAM and $15.1M U.S. SAM across 4M+ annual U.S. cataract surgeries, and built an economic defense model showing that preventing a single posterior capsular tear saves hospitals $1,111 per case. Confirmed a Class I, 510(k)-exempt regulatory path.</div>
+    </div>
+
+    <div class="project-card">
+      <span class="proj-badge badge-real">Medtech Assessment</span>
+      <div class="proj-title">Non-invasive EoE diagnostic devices</div>
+      <div class="proj-desc">Assessed endoscope- and nasal-based mucus sampling devices to monitor Eosinophilic Esophagitis biomarkers (IgG4, eMBP, tryptase) without repeat sedated endoscopies. Quantified a $204.2M global and $23.2M U.S. TAM across 147,000 annual procedures, and confirmed reimbursement compatibility under CPT codes 43239 and 43235 through clinician interviews with GI faculty.</div>
+    </div>
+
+    <div class="project-card">
+      <span class="proj-badge badge-real">Medtech Assessment</span>
+      <div class="proj-title">Dropped head syndrome support device</div>
+      <div class="proj-desc">Assessed an ergonomic head-support band for ALS and Parkinson's patients with dropped head syndrome, addressing mobility loss and choking risk from current rigid collars. Sized a $17.7M global and $1.4M U.S. TAM across roughly 6,500 U.S. patients/year, benchmarked against incumbents priced $139&ndash;$5,898, and mapped a 510(k)-exempt Class I pathway.</div>
+    </div>
+
+  </div>
+  <p class="confidential-note">Given the proprietary and confidential nature of this work, and because several of these devices are pursuing patent protection, underlying assessment materials are not shared publicly.</p>
+</div>
+
+<!-- STRATEGY WORK -->
+<div class="sec-wrap" id="strategy-work">
+  <div class="sec-number">10</div>
+  <div class="sec-label">Strategy work</div>
+  <div class="sec-title">Go-to-market &amp; consulting</div>
+
+  <div class="project-grid" style="margin-top:2.5rem">
 
     <div class="project-card">
       <span class="proj-badge badge-strategy">Market Strategy</span>
@@ -663,7 +755,7 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 2
 
 <!-- RESEARCH & INSIGHTS -->
 <div class="sec-wrap" id="insights">
-  <div class="sec-number">07</div>
+  <div class="sec-number">11</div>
   <div class="sec-label">Research &amp; insights</div>
   <div class="sec-title">Independent coverage</div>
   <p class="sec-sub">Ongoing, unaffiliated research &mdash; sector assessments, single-name equity research, and periodic reviews of prior calls, right or wrong.</p>
@@ -676,7 +768,7 @@ footer{background:var(--bg);border-top:1px solid var(--border2);padding:1.5rem 2
 
 <!-- EDUCATION / RECOGNITION -->
 <div class="sec-wrap" id="education">
-  <div class="sec-number">08</div>
+  <div class="sec-number">12</div>
   <div class="sec-label">Education &amp; recognition</div>
   <div class="sec-title">Academic foundation</div>
 
